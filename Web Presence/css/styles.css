@@ -1,0 +1,8 @@
+.top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
+ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
+li {float: left; border-right: 1px solid #bbb;}
+li a {display: block;color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 20px}
+li a:hover:not(.active) {background-color: #111;}
+.active {background-color: #bf1600;}
+h2 {font-size: 80px; border-bottom-style: double; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center; text-decoration: underline;}
+.vl {border-left: 3px solid black; height: 200px;left: 50%; margin-left: 0px; top: 0px;}
