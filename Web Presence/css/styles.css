@@ -5,6 +5,6 @@ li a {display: block;color: white; text-align: center; padding: 14px 16px; text-
 li a:hover:not(.active) {background-color: #111;}
 .active {background-color: #bf1600;}
 h2 {font-size: 80px; border-bottom-style: double; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center;}
-h3 {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px; margin-bottom: 0px;}
+.habout {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px; margin-bottom: 0px;}
 img {float:left; padding: 10px; margin: 30px;}
 p {font-family: sans-serif; margin-top: 0px;}
