@@ -9,5 +9,5 @@ nav li a:hover:not(.active) {background-color: #111;}
 img {float:left; padding: 10px; margin: 30px;}
 p {font-family: sans-serif; margin-top: 0px;}
 .mp {font-family: sans-serif;}
-.hwhs {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px;}
+.hwhs {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px;margin-bottom: 5px;}
 .mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:325px;width:525px;}
