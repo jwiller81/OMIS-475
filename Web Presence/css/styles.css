@@ -6,8 +6,13 @@ nav li a:hover:not(.active) {background-color: #111;}
 .active {background-color: #bf1600;}
 .pghead {font-size: 80px; border-bottom-style: double; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center;}
 .habout {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px; margin-bottom: 0px;}
-img {float:left; padding: 10px; margin: 30px;}
+.hup {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px; margin-bottom: 0px; text-align: left;}
+img {float: left; padding: 10px; margin: 30px;}
 p {font-family: sans-serif; margin-top: 0px;}
 .mp {font-family: sans-serif;}
 .hwhs {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px;margin-bottom: 5px;}
 .mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:325px;width:525px;}
+.flex-container {display: flex;}
+.flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding: 20px; font-size: 20px;}
+.divider {border-left: 3px double; margin:0px; padding:0px; flex: 0 0 5px;}
+.scrolldiv {background-color: #eee; width:550px;height:300px;border: 1px dotted black; overflow: auto;}
