@@ -15,3 +15,4 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flex-container {display: flex; height: 450px;}
 .flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
 .divider {border-left: 3px double; margin:0px; padding:0px; flex: 0 0 5px; height: auto;}
+.flexdiv3 {flex: 0 0 425px;}
