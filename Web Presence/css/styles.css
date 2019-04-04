@@ -8,7 +8,7 @@ nav li a {display: block;color: white; text-align: center; padding: 14px 16px; t
 nav li a:hover:not(.active) {background-color: #111;}
 .active {background-color: #bf1600;}
 .pghead {font-size: 80px; border-bottom-style: double; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center;}
-.habout {font-size: 40px; font-family:serif; margin-top:20px; margin-bottom: 0px; width: 60%; background-color: #333; color: white; min-width: 40%;}
+.habout {font-size: 25px; font-family:serif; margin-top:20px; margin-bottom: 0px; width: 86%; background-color: #333; color: white; min-width: 40%;}
 img {float: left; padding: 10px; margin: 30px;}
 p {font-family: sans-serif; margin-top: 0px;}
 .mp {font-family: sans-serif;}
