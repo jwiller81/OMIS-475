@@ -1,4 +1,5 @@
-#wrapper {margin: 0 auto; width: 80%; min-width: 960px; max-width: 1200px;}
+#wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px;}
+#hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
 body {Margin: 0px;}
 .top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
 nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
