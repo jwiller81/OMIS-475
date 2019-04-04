@@ -17,4 +17,4 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flex-container {display: flex;}
 .flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding: 20px; font-size: 20px;}
 .divider {border-left: 3px double; margin:0px; padding:0px; flex: 0 0 5px; height: auto;}
-.scrolldiv {background-color: #eee; width:380px;height:300px;border: 1px dotted black; overflow: auto;}
+.scrolldiv {background-color: #eee; width:450px;height:300px;border: 1px dotted black; overflow: auto;}
