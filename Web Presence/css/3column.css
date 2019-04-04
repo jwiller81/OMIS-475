@@ -1,4 +1,4 @@
-#wrapper {margin: 0 auto; width: 80%; min-width: 960px; max-width: 1200px;}
+#wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px;}
 header {background-image: url("../images/chicago.png"); background-size:100%; background-repeat:no-repeat;}
 body {Margin: 0px;}
 .top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
@@ -12,6 +12,6 @@ nav li a:hover:not(.active) {background-color: #111;}
 p {font-family: sans-serif; margin-top: 0px;}
 .mapouter{position:relative; text-align:center; height:325px;width:375px;}
 .gmap_canvas {overflow:hidden;background:none!important;height:325px;width:375px;}
-.flex-container {display: flex;}
+.flex-container {display: flex; height: 450px;}
 .flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
 .divider {border-left: 3px double; margin:0px; padding:0px; flex: 0 0 5px; height: auto;}
