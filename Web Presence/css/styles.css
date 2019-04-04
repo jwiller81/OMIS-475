@@ -1,4 +1,4 @@
-#wrapper {margin: 0 auto; width: 80%; min-width: 960px; max-width: 1200px;}
+#wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px;}
 body {Margin: 0px;}
 .top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
 nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
@@ -16,4 +16,4 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flex-container {display: flex;}
 .flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding: 20px; font-size: 20px;}
 .divider {border-left: 3px double; margin:0px; padding:0px; flex: 0 0 5px; height: auto;}
-.scrolldiv {background-color: #eee; width:380px;height:300px;border: 1px dotted black; overflow: auto;}
+.scrolldiv {background-color: #eee; width:450px;height:300px;border: 1px dotted black; overflow: auto;}
