@@ -3,12 +3,14 @@
 <head>
 <title>Jeff Willer's Web Presence</title>
 <meta charset= "utf-8">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/2column.css">
 <style>
 header {background-image: url("images/chicago.png"); background-size:100%; background-repeat:no-repeat;}
 </style>
 </head>
-    <header>    
+<body>
+<header> 
+<div id="hwrapper">   
 <h1 class="top">JKW</h1>
  <nav>
 <ul>
@@ -25,9 +27,57 @@ header {background-image: url("images/chicago.png"); background-size:100%; backg
 </ul> 
  </nav>
     </header>
-
-<body>
-<h2 class="pghead">NIU Projects</h2>
-
+</div>
+<div id="wrapper">
+<h2 class="pghead">NIU Courses</h2>
+<div class="flex-container">
+    <div style="flex: 0 0 700px">
+    <h3 class="habout">NIU Classes Taken</h3>
+            <table border="1">
+                    <tr>
+                            <th>Course Name</th>
+                            <th>Course Code</th>
+                            <th>Project Description</th>
+                            <th>Project Links</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                     </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+            </table>
+    </div>
+    <div style="flex: 0 0 300px">
+    <h3 class="habout">Project Request Form</h3>
+    <form method="POST" action="https://formspree.io/Z1761431@students.niu.edu">
+        <label for="myName">*Project Request:</label>
+          <input type="text" name="projectRequest" id="projectRequest" required="required" placeholder="Project Requesting">
+        <label for="myName">*Name:</label>
+          <input type="text" name="myName" id="myName" required="required" placeholder="your first and last name">
+        <label for="myEmail">*E-mail:</label>
+          <input type="email" name="myEmail" id="myEmail"
+          required="required" placeholder="you@yourdomain.com">
+        
+        
+        <label for="myComments">Comments:</label>
+          <textarea name="myComments" id="myComments" rows="2" cols="20" maxlength="1600"></textarea>
+          <p class="pform">If you are looking for more information on a project, please fill this form out!</p>
+          <input id="mySubmit" type="submit" value="Submit">
+        </form>
+</div>
+</div>
 </body>
 </html>

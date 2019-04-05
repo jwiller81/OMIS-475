@@ -1,7 +1,7 @@
 #wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px; background-color: #FFFFFF;}
 #hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
 header {background-image: url("../images/chicago.png"); background-size:100%;}
-body {Margin: 0px; background-image: linear-gradient(grey, white);background-repeat: no-repeat;}
+body {Margin: 0px; background-image: url("../images/gb.jpg");background-repeat: no-repeat;}
 .top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
 nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
 nav li {float: left; border-right: 1px solid #bbb;}
@@ -20,6 +20,5 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flex-container2 {display: flex; flex-direction: column; height:auto;}
 .flex-container2 > div {background-color: #ffffff; margin-bottom: 0px; font-size: 20px; }
 .flexdiv4 {flex: 0 0 300px;}
-.contact {font-family: sans-serif; margin-top: 0px; font-size: 25px;}
-.icons {width: 50px;float: left;}
-.test {flex:0 0 300px; margin-left:0px;}
+.contact {font-family: sans-serif; margin-top: 0px; font-size: 30px;}
+.icons {width: 50px;float: left; height: 50px;}
