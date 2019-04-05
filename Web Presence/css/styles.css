@@ -13,7 +13,8 @@ img {float: left; padding: 10px; margin: 30px;}
 p {font-family: sans-serif; margin-top: 0px;}
 .mp {font-family: sans-serif;}
 .hwhs {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px;margin-bottom: 5px;}
-.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:325px;width:525px;}
+.mapouter{position:relative;text-align:left;height:500px;width:600px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:325px;width:525px; text-align: center;}
 .flex-container {display: flex; flex-direction: row;}
 .flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding: 20px; font-size: 20px;}
 .flex-container2 {display: flex; flex-direction: column;}
