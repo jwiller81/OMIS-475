@@ -1,6 +1,6 @@
 #wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px; background-color: #FFFFFF;}
 #hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
-body {Margin: 0px;}
+body {Margin: 0px; background-image: linear-gradient(grey, white);background-repeat: no-repeat;}
 .top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
 nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
 nav li {float: left; border-right: 1px solid #bbb;}
@@ -9,15 +9,15 @@ nav li a:hover:not(.active) {background-color: #111;}
 .active {background-color: #bf1600;}
 .pghead {font-size: 80px; border-bottom-style: solid; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center; border-bottom-color: #ccc;}
 .habout {font-size: 25px; font-family:serif; margin-top:20px; margin-bottom: 0px; width: 86%; background-color: #333; color: white; min-width: 40%;}
-img {float: left; padding: 10px; margin: 30px;}
+img {float: left; padding: 10px; margin: 20px;}
 p {font-family: sans-serif; margin-top: 0px;}
 .mp {font-family: sans-serif;}
 .hwhs {font-size: 40px; font-family:serif; text-decoration: underline; margin-top:20px;margin-bottom: 5px;}
 .mapouter{position:relative;text-align:left;height:500px;width:600px;}
 .gmap_canvas {overflow:hidden;background:none!important;height:325px;width:525px; text-align: center;}
-.flex-container {display: flex; flex-direction: row;}
+.flex-container {display: flex; flex-direction: row; justify-content: center;}
 .flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding: 20px; font-size: 20px;}
 .flex-container2 {display: flex; flex-direction: column;}
 .flex-container2 > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding: 20px; font-size: 20px;}
 .divider {border-left: 2px solid; margin:0px; padding:0px; flex: 0 0 5px; height: auto; color: #ccc}
-.scrolldiv {background-color: #eee; width:450px;height:300px;border: 1px dotted black; overflow: auto;}
+.scrolldiv {background-color: #eee; width:425px;height:300px;border: 1px dotted black; overflow: auto;}
