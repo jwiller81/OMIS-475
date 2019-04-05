@@ -20,3 +20,4 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flex-container2 {display: flex; flex-direction: column; height:auto;}
 .flex-container2 > div {background-color: #ffffff; margin-bottom: 0px; font-size: 20px; }
 .flexdiv4 {flex: 0 0 300px;}
+.contact {font-family: sans-serif; margin-top: 0px; font-size: 30px;}
