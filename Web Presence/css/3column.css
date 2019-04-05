@@ -13,6 +13,9 @@ p {font-family: sans-serif; margin-top: 0px;}
 .mapouter{position:relative; text-align:center; height:325px;width:375px;}
 .gmap_canvas {overflow:hidden;background:none!important;height:325px;width:375px;}
 .flex-container {display: flex; height: 450px;}
-.flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
+.flex-container > div {background-color: #ffffff; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
 .divider {border-left: 2px solid; margin:0px; padding:0px; flex: 0 0 5px; height: auto; color: #ccc;}
 .flexdiv3 {flex: 0 0 425px;}
+.flex-container2 {display: flex; flex-direction: column; height:auto;}
+.flex-container2 > div {background-color: #ffffff; margin-bottom: 0px; font-size: 20px; }
+.flexdiv4 {flex: 0 0 300px;}
