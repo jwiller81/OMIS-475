@@ -1,8 +1,8 @@
 #wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px;}
 #hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
-h2 {text-align: center; font-family: 'Times New Roman', Times, serif;border-bottom-style: double;}
+h2 {text-align: center; font-family: 'Times New Roman', Times, serif;border-bottom-style: double; margin: 0;}
 h4 {border-bottom-style: solid; font-size: 30px; margin-bottom: 5px; }
 .pr {font-family: 'Times New Roman', Times, serif; font-size: 20px; margin-top: 5px ;}
 ul.r {list-style-type: circle;}
 li.r {font-size: 20px; margin-top: 5px;}
-.divprint {text-align: center;}
+body {Margin: 0px; background-image: linear-gradient(grey,white);}
