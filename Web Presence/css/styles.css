@@ -1,4 +1,4 @@
-#wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px;}
+#wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px; background-color: #FFFFFF;}
 #hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
 body {Margin: 0px;}
 .top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
