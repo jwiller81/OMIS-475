@@ -7,10 +7,10 @@ nav li {float: left; border-right: 1px solid #bbb;}
 nav li a {display: block;color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 19px;}
 nav li a:hover:not(.active) {background-color: #111;}
 .active {background-color: #bf1600;}
-.pghead {font-size: 80px; border-bottom-style: double; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center;}
+.pghead {font-size: 80px; border-bottom-style: solid; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center; border-bottom-color: #ccc;}
 .habout {font-size: 25px; font-family:serif; margin-top:20px; margin-bottom: 0px; width: 86%; background-color: #333; color: white; min-width: 40%;}
 p {font-family: sans-serif; margin-top: 0px;}
 .flex-container {display: flex; height: 450px;}
 .flex-container > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
-.divider {border-left: 3px double; margin:0px; padding:0px; flex: 0 0 5px; height: auto;}
+.divider {border-left: 2px double; margin:0px; padding:0px; flex: 0 0 5px; height: auto; color: #ccc;}
 .flexdiv2 {flex: 0 0 625px;}
