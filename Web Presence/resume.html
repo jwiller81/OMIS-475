@@ -30,7 +30,10 @@ header {background-image: url("images/redblack.png"); background-size:100%; back
     </div>
 <body>
     <div id="wrapper">
+                        
         <div style="background-color: white; padding: 15px 20px 15px;">
+                        <a href="#printbutton">Click here to scroll to the print button</a>
+                        <div id="printablearea"></div>
 <h2>Jeffrey Willer <br> 7826 N.Neva Avenue <br> (224)688-2934<br>Niles, IL 60714 <br><a href="mailto:Z1761431@students.niu.edu">Z1761431@students.niu.edu</a></h2>
 <h4>Objective</h4>
 <p class="pr">Hard-working and high-achieving student aspiring to secure a full-time position in Information Systems,Data Analytics, or related fields. Searching for an opportunity to utilize communication and leadership skills and gain experience in data analysis, project management, and research. Above all, I am continually looking to further my knowledge and expand my skill set. </p>
@@ -78,10 +81,16 @@ header {background-image: url("images/redblack.png"); background-size:100%; back
 <h4>Awards/Recognitions/Honors</h4>
 <p class="pr">
     <strong>Deans List</strong>(Fall 2018) &nbsp; &nbsp;&nbsp; &nbsp;          <strong> All-Conference Track Athlete</strong> <i>(May 2015) – Events (100m, 200m, 400m Relay)</i></p>
-    <div class="divprint"><form>
-            <input type="button" value="Print this page" onClick="window.print()">
-            </form></div>
+            <input type="button" id="printbutton" onclick="printDiv('printablearea')" value="Print this page">
             </div>
                 </div>
+                <script>
+                                function printDiv(divName) {
+                                       var printContents = document.getElementById(divName).innerHTML;
+                                       var originalContents = document.body.innerHTML;
+                                       document.body.innerHTML = printContents;
+                                       window.print();
+                                       document.body.innerHTML = originalContents;}
+                        </script> 
 </body>
 </html>
