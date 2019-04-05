@@ -21,3 +21,4 @@ p {font-family: sans-serif; margin-top: 0px;}
 form {font-family: 'Times New Roman', Times, serif; padding: 10px; margin: 5px; width: 450px; background-color: #ccc;}
 label { float: left;width: 150px; clear: left;text-align: right;padding-right: 10px;padding-top: 10px; }
 input, textarea { margin-top: 10px; display: block;} 
+.divtable {overflow-x: auto; margin-right: 20px;}

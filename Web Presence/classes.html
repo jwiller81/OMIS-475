@@ -3,11 +3,13 @@
 <head>
 <title>Jeff Willer's Web Presence</title>
 <meta charset= "utf-8">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/2column.css">
 <style>
 header {background-image: url("images/chicago.png"); background-size:100%; background-repeat:no-repeat;}
 </style>
 </head>
+<body>
+    <div id="hwrapper">
     <header>    
 <h1 class="top">JKW</h1>
  <nav>
@@ -25,9 +27,24 @@ header {background-image: url("images/chicago.png"); background-size:100%; backg
 </ul> 
  </nav>
     </header>
-
-<body>
-<h2 class="pghead">NIU Classes</h2>
-
+</div>
+<div id="wrapper">
+<h2 class="pghead">NIU Courses</h2>
+<div class="flex-container">
+    <div style="flex: 0 0 700px">
+    <h3 class="habout">NIU Classes Taken</h3>
+            <table border="1">
+                    <tr>
+                            <th>Course Name</th>
+                            <th>Course Code</th>
+                            <th>Teacher</th>
+                            <th>Year</th>
+                            <th>Semester</th>
+            </table>
+    </div>
+    <div style="flex: 0 0 300px">
+    <h3 class="habout">NIU Links</h3>
+        <p></p>
+</div>
 </body>
 </html>
