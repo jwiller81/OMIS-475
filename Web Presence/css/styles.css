@@ -20,5 +20,5 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flex-container2 {display: flex; flex-direction: column;}
 .flex-container2 > div {background-color: #ffffff; width: 400px; margin-bottom: 0px; padding: 20px; font-size: 20px;}
 .divider {border-left: 2px solid; margin:0px; padding:0px; flex: 0 0 5px; height: auto; color: #ccc}
-.scrolldiv {background-color: #eee; width:400px;height:300px;border: 1px dotted black; overflow: auto;}
+.scrolldiv {background-color: #eee; width:428px;height:300px;border: 1px dotted black; overflow: auto;}
 .flexdiv2 {flex: 0 0 500px;}
