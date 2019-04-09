@@ -1,6 +1,6 @@
 #wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px; background-color: #FFFFFF;}
 #hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
-header {background-image: url("../images/chicago.png"); background-size:100%;}
+header {background-image: url("../images/red.png"); background-size:100%; background-repeat: no-repeat; position: relative; min-width: 1280px;}
 body {Margin: 0px; background-image: url("../images/gb.jpg");background-repeat: no-repeat;}
 .top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
 nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
@@ -13,7 +13,7 @@ nav li a:hover:not(.active) {background-color: #111;}
 p {font-family: sans-serif; margin-top: 0px;}
 .mapouter{position:relative; text-align:center; height:325px;width:375px;}
 .gmap_canvas {overflow:hidden;background:none!important;height:325px;width:375px;}
-.flex-container {display: flex; height: 450px; justify-content: center;}
+.flex-container {display: flex; justify-content: center;}
 .flex-container > div {background-color: #ffffff; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
 .divider {border-left: 2px solid; margin:0px; padding:0px; flex: 0 0 5px; height: auto; color: #ccc;}
 .flexdiv3 {flex: 0 0 400px; padding-right: 5px;}
@@ -22,3 +22,4 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flexdiv4 {flex: 0 0 300px; padding: 5px;}
 .contact {font-family: sans-serif; margin-top: 0px; font-size: 30px;}
 .icons {width: 50px;float: left; height: 50px;}
+.image {float: left; overflow: hidden; width: 70%; min-width: 150px; padding-right: 10px; padding-top: 10px; margin: 0 auto;}
