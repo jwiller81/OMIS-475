@@ -19,6 +19,6 @@ p {font-family: sans-serif; margin-top: 0px;}
 .flexdiv3 {flex: 0 0 400px;}
 .flex-container2 {display: flex; flex-direction: column; height:auto;}
 .flex-container2 > div {background-color: #ffffff; margin-bottom: 0px; font-size: 20px; }
-.flexdiv4 {flex: 0 0 300px;}
+.flexdiv4 {flex: 0 0 300px; padding: 5px;}
 .contact {font-family: sans-serif; margin-top: 0px; font-size: 30px;}
 .icons {width: 50px;float: left; height: 50px;}
