@@ -2,7 +2,7 @@
 #hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
 header {background-image: url("../images/red.png"); background-size:100%; background-repeat:no-repeat; position: relative;min-width: 1280px;}
 body {Margin: 0px; background-image: url("../images/gb.jpg");background-repeat: repeat;}
-.top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #ffffff;}
+.top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #bf1600;color: #ffffff;}
 nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
 nav li {float: left; border-right: 1px solid #bbb;}
 nav li a {display: block;color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 19px;}
