@@ -1,0 +1,31 @@
+#wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px; background-color: #FFFFFF;}
+#hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
+header {background-image: url("../images/red.png"); background-size:100%; background-repeat:no-repeat; position: relative;min-width: 1280px;}
+body {Margin: 0px; background-image: url("../images/gb.jpg");background-repeat: repeat;}
+.top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #bf1600;color: #ffffff;}
+nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
+nav li {float: left; border-right: 1px solid #bbb;}
+nav li a {display: block;color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 19px;}
+nav li a:hover:not(.active) {background-color: #111;}
+.active {background-color: #bf1600;}
+.pghead {font-size: 80px; border-bottom-style: solid; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center; border-bottom-color: #ccc;}
+.habout {font-size: 25px; font-family:serif; margin-top:20px; margin-bottom: 0px; width: 86%; background-color: #333; color: white; min-width: 40%;}
+p {font-family: sans-serif; margin-top: 0px;}
+.flex-container {display: flex;justify-content: center;}
+.flex-container > div {background-color: #ffffff; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
+.flex-container2 {display: flex; flex-direction: column; height:auto;}
+.flex-container2 > div {background-color: #ffffff; margin-bottom: 0px; font-size: 20px;}
+.divider {border-left: 2px double; margin:0px; padding:0px; flex: 0 0 5px; height: auto; color: #ccc;}
+.flexdiv2 {flex: 0 0 625px;}
+.flexcareer {flex: 0 0 800px;}
+.pform {font-family: 'Times New Roman', Times, serif; text-align: center;}
+form {font-family: 'Times New Roman', Times, serif; padding: 10px; margin: 5px; width: 450px; background-color: #ccc;}
+label { float: left;width: 150px; clear: left;text-align: right;padding-right: 10px;padding-top: 10px; }
+input, textarea { margin-top: 10px; display: block;} 
+.button {background-color: #bf1600 ;border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;}
+.button1:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+.divtable {overflow-x: auto; margin-right: 20px;}
+table {border-collapse: collapse; margin-bottom: 10px;}
+th {text-align: center; padding: 5px; border-bottom: 1px double #ccc;}
+tr:nth-child(even) {background-color: lightgrey;}
+.image {float: left; overflow: hidden; width: 30%; min-width: 150px; padding-right: 10px; padding-top: 10px; margin: 0 auto;}

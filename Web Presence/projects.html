@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32"/>
+<title>Jeff Willer's Web Presence</title>
+<meta charset= "utf-8">
+<link rel="stylesheet" href="css/2column.css">
+</head>
+<body>
+<header> 
+<div id="hwrapper">   
+<h1 class="top">JKW</h1>
+ <nav>
+<ul>
+<li><a href="index1.html">Home</a></li>
+<li><a href="background.html"> Background</a></li>
+<li><a href="activities.html"> Activities</a></li> 
+<li><a href="hobbies.html"> Hobbies/Interest</a></li> 
+<li><a href="resume.html"> Resume</a></li> 
+<li><a href="future.html"> Future Plans</a></li> 
+<li><a href="career.html"> Career Interest</a></li> 
+<li><a href="classes.html"> NIU Classes</a></li> 
+<li><a class="active" href="projects.html"> NIU Projects</a></li> 
+<li><a href="contact.html"> Contact</a></li> 
+</ul> 
+ </nav>
+    </header>
+</div>
+<div id="wrapper">
+<h2 class="pghead">NIU Courses</h2>
+<div class="flex-container">
+    <div style="flex: 0 0 700px">
+    <h3 class="habout">NIU Classes Taken</h3>
+    <table border="1" >
+        <tr>
+                <th>Semester</th>
+                <th>Course Number</th>
+                <th>Course Name</th>
+                <th>Project/Project Description</th>
+             </tr>
+              <tr>
+                <td>Spring 2018</td>
+                <td>OMIS 324</td>
+                <td>Introduction to Business Data Analytical Tools</td>
+                <td>Using Tableau, myself and two other group members worked on a project comparing death rate and country GDP. In order to see if there was a comparison, we used regression analysis.   </td>
+             </tr>
+              <tr>
+                <td></td>
+                <td>OMIS 352</td>
+                <td>Managing Projects in Business</td>
+               <td>Organized a project to help fundraise money for a local animal shelter. One tool we used to stay on schedule was Microsoft Projects.</td>
+             </tr>
+              <tr>
+                <td></td>
+                <td>OMIS 442</td>
+                 <td>Process and Quality Improvement</td>
+                 <td>A team of four students (including myself) were paired up to do research on a company of their choosing. The objective of the research was to find a company that focused on Lean manufacturing and how it impacts the overall quality of their business processes.</td>
+             </tr>
+              <tr>
+               <td></td>
+               <td>OMIS 452</td>
+                <td>Database Management for Business</td>
+                <td>Created a relational database in MS SQL Server. Designed and populated the database based off a fake company. Queried several questions to show real business practices. </td>
+             </tr>
+              <tr>
+                <td>Fall 2018</td>
+                 <td>OMIS 462</td>
+                 <td>Business Systems Analysis, Design, and Development</td>
+                 <td>Using various mock-up tools, we created a process improvement for an incident management system. The purpose of this project was to design a new and improved business system. <a href="projects/ProjP3_ERD.pdf">(ERD for Incident System PDF)</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                 <td>OMIS 473</td>
+                 <td>Data Visualization for Business</td>
+                 <td>Using a data set focused on speed dating, we used linear regression to find consistencies with people’s interest in one each other. The goal of this project was to showcase the work with visualizations in Tableau. <a href="projects/om473.pdf">(Speed Dating PDF)</a></td>
+              </tr>
+              <tr>
+                    <td></td>
+                     <td>OMIS 482</td>
+                     <td>Predicctive Business Analytics</td>
+                     <td>The goal of this project was to find how colleges are ranked globally using SAS Enterprise Miner. With the use of regression nodes and neural networks, we found what variables contribute to a college’s rank. </td>
+                  </tr>
+              <tr>
+                <td>Spring 2019</td>
+                 <td>MGMT 468</td>
+                 <td>Strategic Management</td>
+                 <td>Completed research on Twitter to find what business strategies are used to contribute to their success. </td>
+              </tr>
+              <tr>
+                <td></td>
+                 <td>OMIS 475</td>
+                 <td>Internet and Web Computing Tech</td>
+                 <td>Design and publish a website using HTML, CSS, and JavaScript. Created mockups with Balsamiq.</td>
+              </tr>
+              <tr>
+                <td></td>
+                 <td>OMIS 340</td>
+                 <td>Supply Chain Management</td>
+                 <td>Conduct primary and secondary research to discuss McDonald's supply chain strategies. Made recommendations on how they can improve it moving forward. <a href="projects/OMIS 340 Presentation..pdf">(McDonald's Presentation PDF)</a> &nbsp; <a href="projects/340research.pdf">(McDonald's Research Paper PDF)</a></td>
+              </tr>
+</table> 
+    </div>
+    <div style="flex: 0 0 300px">
+    <h3 class="habout">Project Request Form</h3>
+    <form method="POST" action="https://formspree.io/Z1761431@students.niu.edu">
+        <label for="myName">*Project Request:</label>
+          <input type="text" name="projectRequest" id="projectRequest" required="required" placeholder="Project Requesting">
+        <label for="myName">*Name:</label>
+          <input type="text" name="myName" id="myName" required="required" placeholder="your first and last name">
+        <label for="myEmail">*E-mail:</label>
+          <input type="email" name="myEmail" id="myEmail"
+          required="required" placeholder="you@yourdomain.com">
+        
+        
+        <label for="myComments">Comments:</label>
+          <textarea name="myComments" id="myComments" rows="2" cols="20" maxlength="1600"></textarea>
+          <p class="pform">If you are looking for more information on a project, please fill this form out!</p>
+          <input id="mySubmit" type="submit" value="Submit" class="button button1">
+        </form>
+</div>
+</div>
+</body>
+</html>
