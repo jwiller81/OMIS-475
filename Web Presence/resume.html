@@ -4,17 +4,19 @@
                 <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32"/>
 <title>Jeff Willer's Web Presence</title>
 <meta charset= "utf-8">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/mobile.css">
 <link rel="stylesheet" href="css/resumestyle.css">
 <style>
-header {background-image: url("images/red.png"); background-size:100%; background-repeat:no-repeat; position: relative; min-width: 1280px;}
+header {background-image: url("images/red.png"); background-size:100%; background-repeat:no-repeat; overflow:hidden; padding-bottom: 10px;}
 </style>
 </head>
 <body>
-    <header>
-<div id="hwrapper">    
+<div id="hwrapper">  
+<header>  
 <h1 class="top">JKW</h1>
- <nav>
+</header>
+ <nav class="navborder">
+<div>
 <ul>
 <li><a href="index1.html">Home</a></li>
 <li><a href="background.html"> Background</a></li>
@@ -28,13 +30,13 @@ header {background-image: url("images/red.png"); background-size:100%; backgroun
 <li><a href="contact.html"> Contact</a></li> 
 </ul> 
  </nav>
-    </header>
-    </div>
-    <div id="wrapper">
-                        
-        <div style="background-color: white; padding: 15px 20px 15px;">
-                        <a href="#printbutton">Click here to scroll to the print button</a>
-                        <div id="printablearea"></div>
+</div>
+</div>
+
+<div id="wrapper">                        
+<div style="background-color: white; padding: 15px 20px 15px;">
+<a href="#printbutton">Click here to scroll to the print button</a>
+                        <div id="printablearea">
 <h2>Jeffrey Willer <br> 7826 N.Neva Avenue <br> (224)688-2934<br>Niles, IL 60714 <br><a href="mailto:Z1761431@students.niu.edu">Z1761431@students.niu.edu</a></h2>
 <h4>Objective</h4>
 <p class="pr">Hard-working and high-achieving student aspiring to secure a full-time position in Information Systems,Data Analytics, or related fields. Searching for an opportunity to utilize communication and leadership skills and gain experience in data analysis, project management, and research. Above all, I am continually looking to further my knowledge and expand my skill set. </p>
@@ -82,9 +84,16 @@ header {background-image: url("images/red.png"); background-size:100%; backgroun
 <h4>Awards/Recognitions/Honors</h4>
 <p class="pr">
     <strong>Deans List</strong>(Fall 2018) &nbsp; &nbsp;&nbsp; &nbsp;          <strong> All-Conference Track Athlete</strong> <i>(May 2015) – Events (100m, 200m, 400m Relay)</i></p>
-            <input type="button" id="printbutton" onclick="printDiv('printablearea')" value="Print this page">
-            </div>
-                </div>
+</div>        
+    <input type="button" id="printbutton" onclick="printDiv('printablearea')" value="Print this page" class="button button1">
+
+</div>
+</div>
+
+
+
+
+
                 <script>
                                 function printDiv(divName) {
                                        var printContents = document.getElementById(divName).innerHTML;
