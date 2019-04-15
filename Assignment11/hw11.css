@@ -1,0 +1,17 @@
+#wrapper {margin: 0 auto; width: 85%; min-width: 960px; max-width: 1400px; background-color: #FFFFFF;}
+#hwrapper {margin: 0 auto; width: 100%; min-width: 960px;}
+header {background-image: url("red.png"); background-size:100%; background-repeat:no-repeat; position: relative;min-width: 1280px;}
+body {Margin: 0px; background-image: url("gb.jpg");background-repeat: repeat;}
+.top {font-size: 100px; border-bottom-style: double; font-family:serif ; font-style: italic; margin:1px; text-shadow: 2px 2px 3px #bf1600;color: #ffffff;}
+nav ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333}
+nav li {float: left; border-right: 1px solid #bbb;}
+nav li a {display: block;color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 19px;}
+nav li a:hover:not(.active) {background-color: #111;}
+.active {background-color: #bf1600;}
+.pghead {font-size: 80px; border-bottom-style: solid; font-family:serif; margin:0px; text-shadow: 0 0 3px #FF0000; text-align: center; border-bottom-color: #ccc;}
+.habout {font-size: 25px; font-family:serif; margin-top:20px; margin-bottom: 0px; width: 86%; background-color: #333; color: white; min-width: 40%;}
+p {font-family: sans-serif; margin-top: 0px;}
+.flex-container {display: flex;justify-content: center;}
+.flex-container > div {background-color: #ffffff; margin-bottom: 0px; padding-left: 5px; font-size: 20px;}
+footer {text-align:center; background-color: rgba(0,0,0,0.9); color: white;}
+.text {text-align: center;}
